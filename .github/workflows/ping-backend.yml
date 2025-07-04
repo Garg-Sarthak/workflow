@@ -1,4 +1,4 @@
-name: Ping Backend Every 5 Minutes
+name: Ping Backend Every Minute
 
 on:
   schedule:
