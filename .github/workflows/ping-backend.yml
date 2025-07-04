@@ -2,7 +2,7 @@ name: Ping Backend Every 5 Minutes
 
 on:
   schedule:
-    - cron: '*/3 * * * *'  # Every 5 minutes (UTC)
+    - cron: '*/5 * * * *'  # Every 5 minutes (UTC)
   workflow_dispatch:       # Allows you to manually run it from GitHub UI
 
 jobs:
